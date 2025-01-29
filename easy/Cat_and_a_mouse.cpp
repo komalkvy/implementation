@@ -4,7 +4,8 @@ string catAndMouse(int x, int y, int z)
 {
 
     int d1, d2;
-    d1 = (z - x > 0) ? (z - x) : (x - z);
+    d1 = (z - x > 0) ? (z - x) : (x - z); //condition ? value_if_true : value_if_false;(ternary operator)
+
     d2 = (z - y > 0) ? (z - y) : (y - z);
 
     if (d1 > d2)
