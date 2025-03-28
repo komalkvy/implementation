@@ -6,7 +6,7 @@ int chocolateFeast(int n, int c, int m)
     int choclates = n / c;
     int wrappers = choclates;
 
-    while (wrappers >= m;)
+    while (wrappers >= m)
     {
         int extra = wrappers / m;
         choclates = choclates + extra;
