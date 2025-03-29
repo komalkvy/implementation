@@ -15,7 +15,7 @@ int main(){
     int k=2;
     vector<int> queries={1,2};
     vector<int> result = circularArrayRotation(a, k, queries);
-    
+    //to print a vector
     for (int val : result) {
         cout << val << " "<<endl;
     }
